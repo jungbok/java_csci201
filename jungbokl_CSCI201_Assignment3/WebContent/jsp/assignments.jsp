@@ -109,7 +109,7 @@
 				<hr size="4" />
 				</p>
 				<b>Assignments</b>
-				<table border="2" cellpadding="5" width="890">
+				<table id= "assignmentinfo" border="2" cellpadding="5" width="890">
 					<tr>
 						<th align="center">Homework #</th>
 						<th align="center" width="100">Assigned</th>

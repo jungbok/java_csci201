@@ -13,7 +13,7 @@
 				<p>
 				<hr size="4" />
 				</p>
-				<table border="2" cellpadding="5" width="590">
+				<table id="examinfo" border="2" cellpadding="5" width="590">
 					<tr>
 						<th align="center">Semester</th>
 						<th align="center">Written Exam #1</th>

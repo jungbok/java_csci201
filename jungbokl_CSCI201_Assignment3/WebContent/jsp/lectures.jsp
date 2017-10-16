@@ -50,7 +50,7 @@
 				<p>
 				<hr size="4" />
 				</p> <b>Lectures</b>
-				<table id = "t1" border="2" cellpadding="5" width="790">
+				<table id = "lecturetable" border="2" cellpadding="5" width="790">
 					<tr>
 						<th align="center">Week #</tdh>
 						<th align="center">Lab</th>

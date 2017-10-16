@@ -33,7 +33,7 @@ else {
 				<hr size="4" />
 				</p>
 				<p></p>
-				<table id="t1" border="1">
+				<table id="pinfo" border="1">
 					<tr>
 						<th align="center">Picture</th>
 						<th align="center">Professor</th>
@@ -84,7 +84,7 @@ else {
 				<%
               	}
              	%>
-				</table> <br />
+				</table id="lectureinfo"> <br />
 				<p>
 				<hr size="4" />
 				</p> <b><font size="+1">Lecture Schedule</font></b> 
@@ -140,7 +140,7 @@ else {
 				<p>
 				<hr size="4" />
 				</p> <b><font size="+1">Lab Schedule</font></b>
-				<table id = "t3" border="2" cellpadding="5" width="590">
+				<table id = "labinfo" border="2" cellpadding="5" width="590">
 					<tr>
 						<th align="center">Sect. No.</th>
 						<th align="center">Day &amp; Time</th>

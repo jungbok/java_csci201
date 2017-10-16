@@ -19,16 +19,16 @@ body {
 	
 }
 
-l.checkmark {
+#l.checkmark {
     height: 25px;
     width: 25px;
-    background-color: #FF9;
+    background-color: #0F0;
     border-radius: 50%;
 }
 
 /* On mouse-over, add a grey background color */
-l.container:hover input ~ .checkmark {
-    background-color: #ccc;
+#l.container:hover input ~ .checkmark {
+    background-color: #ff0;
 }
 
 
@@ -52,11 +52,6 @@ div {
 	text-align: left;
 }
 
-.navi {
-	color: rgb(46, 0, 77);
-	font-size: 17pt;
-	text-align: center;
-}
 
 .columnspacer {
 	padding: 20px;
@@ -85,13 +80,12 @@ input[type=text] {
     color: white;
 }
 
-#professorinfo table {
-	border: 3px solid rgb(46, 0, 77);
+#pinfo table {
 	text-align: center;
-	padding: 5px;
+	padding: 2px;
 }
 
-#professorinfo th {
+#pinfo th {
 	font-size: 12pt;
 }
 
@@ -102,25 +96,22 @@ input[type=text] {
 }
 
 
-#lecturescheduleinfo {
+#lectureschedule {
 	padding: 5px;
 }
 
-#lecturescheduleinfo h1{
+#lectureschedule h1{
 	font-weight: bold;
 	font-size: 15pt;
 }
 
-#lecturescheduleinfo table {
-	border: 3px solid #ffffff;
+#lectureschedule table {
+	border: 3px solid #777777;
 	width: 600px;
 	text-align: center;
 	font-size: 12pt;
 }
 
-#labinfo {
-	padding: 5px; 
-}
 
 #labinfo h1 {
 	font-size: 14pt;
@@ -128,7 +119,7 @@ input[type=text] {
 }
 
 #labinfo table {
-	border: 3px solid rgb(46, 0, 77);
+	border: 2px solid #777777;
 	width: 590px;
 	text-align: center;
 	font-size: 11pt;
@@ -171,8 +162,8 @@ a:visited {
 
 hr {
 	padding: 1px;
-	border-top: 2px solid rgb(46, 0, 77);
-	border-bottom: 2px solid rgb(46, 0, 77);
+	border-top: 2px solid #777777;
+	border-bottom: 2px solid #777777;
 }
 
 
@@ -181,21 +172,21 @@ hr {
 }
 
 #lectureinfo table {
-	border: 3px solid rgb(46, 0, 77);
+	border: 2px solid #777777;
 	text-align: center;
 	font-size: 11pt;
 }
 
 
 #assignmentinfo table, td, th {
-	border: 3px solid rgb(46, 0, 77);
+	border: 2px solid #777777;
 	text-align: center;
 	font-size: 11pt;
 	padding: 2px;
 }
 
 #examinfo table, td, th {
-	border: 3px solid rgb(46, 0, 77);
+	border: 2px solid #777777;
 	text-align: center;
 	font-size: 11pt;
 }
